@@ -32,8 +32,6 @@ body {
   color: #ffffff;
 }
 
-/* Розмітка шапки */
-
 /*Забирає точки в всіх списках
 ul {
   list-style: none;
@@ -49,6 +47,8 @@ a {
   text-decoration: none;
 }
 
+/* Розмітка шапки */
+
 /* site-nav */
 .site-nav a {
   color: var(--primary-text-color);
@@ -56,6 +56,11 @@ a {
 
 .site-nav a:hover,
 .site-nav a:focus {
+  color: var(--accent-color);
+}
+
+/* Підсвітка теперішньої сторінки */
+.site-nav .current {
   color: var(--accent-color);
 }
 
@@ -115,4 +120,15 @@ strong {
 
 .subscription span {
   color: rgba(255, 255, 255, 0.6);
+}
+
+/* button (базовий стиль)*/
+.button {
+  color: var(--second-text-color);
+  background-color: var(--accent-color);
+}
+
+.button.secondary {
+  color: var(--primary-text-color);
+  background-color: #f5f4fa;
 }
