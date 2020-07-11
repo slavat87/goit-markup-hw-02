@@ -1,0 +1,109 @@
+body {
+  /*колір фону*/
+  background-color: #ffffff;
+  /*колір основного тексту*/
+  color: #212121;
+}
+
+/*Розмітка шапки*/
+.page-header
+
+/*Логотип header*/
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+}
+
+.logo-web {
+  color: #2196f3;
+}
+
+.logo-studio {
+  color: #212121;
+}
+
+/*Забирає точки в всіх списках
+ul {
+  list-style: none;
+} */
+
+/*Забирає точки в певних списках*/
+.list {
+  list-style: none;
+}
+
+/*Підкреслення ссилок*/
+a {
+  text-decoration: none;
+}
+
+/* site-nav */
+.site-nav a {
+  color: #212121;
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+  color: #2196f3;
+}
+
+/* contact list */
+.contact a {
+  color: #757575;
+}
+
+.contact a:hover,
+.contact a:focus {
+  color: #2196f3;
+}
+
+/* Банер */
+.banner {
+  background-color: rgba(47, 48, 58, 0.8);
+}
+
+.banner-title {
+  color: #ffffff;
+}
+
+/* Особливості */
+.Features p {
+  color: #757575;
+}
+
+/* Чим ми займаємося */
+.perform h3 {
+  color: #ffffff;
+  background-color: rgba(47, 48, 58, 0.8);
+}
+
+/* Наша команда */
+.team p {
+  color: #757575;
+}
+
+/*Розмітка footer*/
+.footer {
+  background-color: #2f303a;
+}
+
+/*Логотип footer
+.footer .logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+}*/
+
+.footer .logo-studio {
+  color: #ffffff;
+}
+
+/* footer-address */
+.footer-address span {
+  color: #ffffff;
+}
