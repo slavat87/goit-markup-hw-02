@@ -15,9 +15,6 @@ body {
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
-}
-
-.logo-web {
   color: #2196f3;
 }
 
@@ -90,20 +87,17 @@ a {
   background-color: #2f303a;
 }
 
-/*Логотип footer
-.footer .logo {
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 31px;
-}*/
-
+/* Логотип footer */
 .footer .logo-studio {
   color: #ffffff;
 }
 
 /* footer-address */
-.footer-address span {
+.footer-address {
   color: #ffffff;
+}
+
+/* footer-contacts */
+.footer-contacts {
+  color: rgba(255, 255, 255, 0.6);
 }
