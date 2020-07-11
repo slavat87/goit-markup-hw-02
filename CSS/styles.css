@@ -1,8 +1,15 @@
+:root {
+  --primary-text-color: #212121;
+  --second-text-color: #ffffff;
+  --third-text-color: #757575;
+  --accent-color: #2196f3;
+}
+
 body {
   /* колір фону */
   background-color: #ffffff;
   /*колір основного тексту*/
-  color: #212121;
+  color: var(--primary-text-color);
 }
 
 /* Логотип */
@@ -44,22 +51,22 @@ a {
 
 /* site-nav */
 .site-nav a {
-  color: #212121;
+  color: var(--primary-text-color);
 }
 
 .site-nav a:hover,
 .site-nav a:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 /* contact list */
 .contact a {
-  color: #757575;
+  color: var(--third-text-color);
 }
 
 .contact a:hover,
 .contact a:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 /* Банер */
@@ -73,18 +80,18 @@ a {
 
 /* Особливості */
 .Features p {
-  color: #757575;
+  color: var(--third-text-color);
 }
 
 /* Чим ми займаємося */
 .perform h3 {
-  color: #ffffff;
+  color: var(--second-text-color);
   background-color: rgba(47, 48, 58, 0.8);
 }
 
 /* Наша команда */
 .team p {
-  color: #757575;
+  color: var(--third-text-color);
 }
 
 /*Розмітка footer*/
@@ -94,10 +101,18 @@ a {
 
 /* footer-address */
 .footer-address {
-  color: #ffffff;
+  color: var(--second-text-color);
 }
 
 /* footer-contacts */
 .footer-contacts {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+strong {
+  color: var(--second-text-color);
+}
+
+.subscription span {
   color: rgba(255, 255, 255, 0.6);
 }
