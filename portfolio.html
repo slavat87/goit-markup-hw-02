@@ -4,31 +4,36 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
+    <link rel="stylesheet" href="./CSS/styles.css" />
   </head>
 
   <body>
     <!-- Шапка сайту -->
-    <header>
+    <header class="page-header">
       <nav>
-        <a href="">Web Studio</a>
+        <div>
+          <a href="" class="logo">
+            Web <span class="logo-studio">Studio</span>
+          </a>
+        </div>
 
-        <ul>
-          <li><a href="">Студія</a></li>
-          <li><a href="">Портфоліо</a></li>
+        <ul class="site-nav list">
+          <li><a href="./index.html">Студія</a></li>
+          <li><a href="" class="current">Портфоліо</a></li>
           <li><a href="">Контакти</a></li>
         </ul>
 
-        <ul>
+        <ul class="contact list">
           <li>
             <a href="mailto:info@devstudio.com">
-              <img src="./images_portfolio/envelope.svg" alt="Конверт" />
+              <img src="./images_studio/envelope.svg" alt="Конверт" />
               info@devstudio.com
             </a>
           </li>
 
           <li>
             <a href="tel:+380961111111">
-              <img src="./images_portfolio/Vector.svg" alt="Телефон" />
+              <img src="./images_studio/Vector.svg" alt="Телефон" />
               +38 096 111 11 11
             </a>
           </li>
@@ -253,65 +258,51 @@
     </main>
 
     <!-- Підвал -->
-    <footer>
+    <footer class="footer">
+      <div>
+        <a href="" class="logo">
+          Web
+          <span class="logo-studio">Studio</span>
+        </a>
+      </div>
+    
       <address>
-        <a href="">Web Studio</a>
         <p>
-          м. Київ, пр-т Лесі Українки, 26<br />
-          info@example.com<br />
-          +38 099 111 11 11
+          <span class="footer-address">м. Київ, пр-т Лесі Українки, 26</span><br />
+          <span class="footer-contacts">info@example.com<br />+38 099 111 11 11</span>
         </p>
       </address>
-
+    
       <div>
         <strong>Приєднуйтесь</strong>
-
+    
         <ul>
           <li>
-            <a
-              href="#"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Instagram Link"
-              >Instagram
+            <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Instagram Link">Instagram
             </a>
           </li>
           <li>
-            <a
-              href="#"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Twitter Link"
-              >Twitter
+            <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Twitter Link">Twitter
             </a>
           </li>
           <li>
-            <a
-              href="#"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Facebook Link"
-              >Facebook</a
-            >
+            <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Facebook Link">Facebook</a>
           </li>
           <li>
-            <a
-              href="#"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Linkedin Link"
-              >Linkedin</a
-            >
+            <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Linkedin Link">Linkedin</a>
           </li>
         </ul>
       </div>
-
-      <div>
-        <b>Підпишіться на розсилку</b>
-
+    
+      <div class="subscription">
+        <strong>Підпишіться на розсилку</strong>
         <div>
-          e-mail
-          <button>Підписатися</button>
+          <span>e-mail</span>
+          <div class="button">
+            <a href="">Підписатися</a>
+            <a href="">
+              <img src="./images_studio/icon-send.svg" alt="Відправка" />
+          </div>
         </div>
       </div>
     </footer>
