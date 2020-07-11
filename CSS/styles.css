@@ -1,14 +1,11 @@
 body {
-  /*колір фону*/
+  /* колір фону */
   background-color: #ffffff;
   /*колір основного тексту*/
   color: #212121;
 }
 
-/*Розмітка шапки*/
-.page-header
-
-/*Логотип header*/
+/* Логотип */
 .logo {
   font-family: Raleway;
   font-style: normal;
@@ -18,9 +15,17 @@ body {
   color: #2196f3;
 }
 
-.page-header .logo-studio {
+/* Логотип-колір Studio header */
+.logo-studio {
   color: #212121;
 }
+
+/* Логотип-колір Studio footer */
+.footer .logo-studio {
+  color: #ffffff;
+}
+
+/* Розмітка шапки */
 
 /*Забирає точки в всіх списках
 ul {
@@ -85,11 +90,6 @@ a {
 /*Розмітка footer*/
 .footer {
   background-color: #2f303a;
-}
-
-/* Логотип footer */
-.footer .logo-studio {
-  color: #ffffff;
 }
 
 /* footer-address */
