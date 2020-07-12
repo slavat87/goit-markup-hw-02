@@ -81,6 +81,7 @@ a {
 
 .banner-title {
   color: #ffffff;
+  text-transform: uppercase;
 }
 
 /* Особливості */
@@ -132,3 +133,6 @@ strong {
   color: var(--primary-text-color);
   background-color: #f5f4fa;
 }*/
+.uppercase {
+  text-transform: uppercase;
+}
