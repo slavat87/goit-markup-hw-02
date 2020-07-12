@@ -141,17 +141,33 @@ strong {
   background-color: var(--accent-color);
 }
 
-.button.secondary {
+.button-secondary {
   color: var(--primary-text-color);
   background-color: #f5f4fa;
 }
 
-.button.secondary li:hover,
-.button.secondary li:focus {
+.button-secondary li:hover,
+.button-secondary li:focus {
   color: var(--second-text-color);
   background-color: var(--accent-color);
 }
 
 .uppercase {
   text-transform: uppercase;
+}
+
+/*-- Сторінка PORTFOLIO --*/
+
+/* Портфоліо */
+
+.portfolio-description p {
+  color: var(--second-text-color);
+}
+
+.portfolio p {
+  color: var(--third-text-color);
+}
+
+.portfolio h4 {
+  color: var(--primary-text-color);
 }
