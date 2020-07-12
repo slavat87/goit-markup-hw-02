@@ -141,10 +141,15 @@ strong {
   background-color: var(--accent-color);
 }
 
-/*.button.secondary {
+.button.secondary {
   color: var(--primary-text-color);
   background-color: #f5f4fa;
-}*/
+}
+
+.button.secondary li:hover,
+.button.secondary li:focus {
+  background-color: var(--accent-color);
+}
 
 .uppercase {
   text-transform: uppercase;
