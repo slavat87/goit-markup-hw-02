@@ -148,6 +148,7 @@ strong {
 
 .button.secondary li:hover,
 .button.secondary li:focus {
+  color: var(--second-text-color);
   background-color: var(--accent-color);
 }
 
