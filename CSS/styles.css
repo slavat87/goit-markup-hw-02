@@ -17,17 +17,23 @@ body {
   /*колір основного тексту*/
   color: var(--primary-text-color);
   font-family: Roboto;
-  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 0.03em;
+}
+
+.h2 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
 }
 
 /* Логотип */
 .logo {
   font-family: Raleway;
-  font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
-  letter-spacing: 0.03em;
+  line-height: 1.2;
   color: #2196f3;
 }
 
@@ -57,6 +63,13 @@ a {
 }
 
 /* Розмітка шапки */
+
+.site-menu {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+}
 
 /* site-nav */
 .site-nav a {
@@ -90,23 +103,53 @@ a {
 
 .banner-title {
   color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
 }
 
 /* Особливості */
-.Features p {
+.features p {
   color: var(--third-text-color);
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.features h3 {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.1;
+  text-transform: uppercase;
 }
 
 /* Чим ми займаємося */
 .perform h3 {
   color: var(--second-text-color);
   background-color: rgba(47, 48, 58, 0.8);
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.1;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 /* Наша команда */
 .team p {
   color: var(--third-text-color);
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+.team h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
 }
 
 /* Постійні клієнти */
@@ -118,6 +161,12 @@ a {
 /*Розмітка footer*/
 .footer {
   background-color: #2f303a;
+}
+
+.addrress {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
 }
 
 /* footer-address */
@@ -136,12 +185,31 @@ strong {
 
 .subscription span {
   color: rgba(255, 255, 255, 0.6);
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.3;
+}
+
+/* Приєднуйтесь */
+.uppercase {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.1;
 }
 
 /* button (базовий стиль)*/
 .button {
   color: var(--second-text-color);
   background-color: var(--accent-color);
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 
 .button-secondary {
@@ -153,10 +221,6 @@ strong {
 .button-secondary li:focus {
   color: var(--second-text-color);
   background-color: var(--accent-color);
-}
-
-.uppercase {
-  text-transform: uppercase;
 }
 
 /*-- Сторінка PORTFOLIO --*/
