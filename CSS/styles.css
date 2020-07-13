@@ -212,29 +212,46 @@ strong {
   letter-spacing: 0.06em;
 }
 
-.button-secondary {
+/*.button-secondary {*/
+.button-secondary li:hover,
+.button-secondary li:focus {
   color: var(--primary-text-color);
   background-color: #f5f4fa;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
 }
 
-.button-secondary li:hover,
+/* Так працює, а так як вище ні */
+/*.button-secondary li:hover,
 .button-secondary li:focus {
   color: var(--second-text-color);
   background-color: var(--accent-color);
-}
+}*/
 
 /*-- Сторінка PORTFOLIO --*/
 
 /* Портфоліо */
 
-.portfolio-description p {
+.portfolio .portfolio-description {
   color: var(--second-text-color);
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.6;
 }
 
 .portfolio p {
   color: var(--third-text-color);
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.9;
 }
 
 .portfolio h4 {
   color: var(--primary-text-color);
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
