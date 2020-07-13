@@ -21,7 +21,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-.h2 {
+h2 {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.2;
@@ -127,6 +127,7 @@ a {
 }
 
 /* Чим ми займаємося */
+
 .perform h3 {
   color: var(--second-text-color);
   background-color: rgba(47, 48, 58, 0.8);
